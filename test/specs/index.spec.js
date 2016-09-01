@@ -1,5 +1,5 @@
 /* global window describe it assert beforeEach */
-import Storage from '../src';
+import Storage from '../../src';
 
 describe('X2 Service -> Storage', () => {
 
