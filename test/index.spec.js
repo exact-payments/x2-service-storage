@@ -1,8 +1,7 @@
 /* global window describe it assert beforeEach */
-
 import Storage from '../src';
 
-describe('Service -> Storage', () => {
+describe('X2 Service -> Storage', () => {
 
   beforeEach(() => {
     window.localStorage.clear();
