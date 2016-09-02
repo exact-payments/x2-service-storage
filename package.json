@@ -1,6 +1,6 @@
 {
   "name": "x2-service-storage",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "X2 Service Storage for Client Side Applications",
   "main": "lib/x2-service-storage.min.js",
   "author": "Ignacio Anaya <ignacio@fintechdev.net>",
