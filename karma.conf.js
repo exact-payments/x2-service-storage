@@ -16,7 +16,7 @@ module.exports = function(config) {
     files: ['test/index.js'],
     exclude: [],
     preprocessors: {
-      'test/index.js': ['webpack', 'sourcemap']
+      'test/index.js': ['webpack', 'sourcemap', 'coverage']
     },
     webpack: webpackConfig,
     webpackMiddleware: {

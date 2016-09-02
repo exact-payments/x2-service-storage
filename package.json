@@ -9,19 +9,12 @@
     "type": "git",
     "url": "https://github.com/fintechdev/x2-service-storage.git"
   },
-  "keywords": [
-    "webpack",
-    "es6",
-    "starter",
-    "library",
-    "universal",
-    "umd",
-    "commonjs"
-  ],
+  "keywords": ["storage", "local", "session", "browser"],
   "scripts": {
     "build": "webpack --mode=build",
     "dev": "webpack --progress --colors --watch --mode=dev",
     "test": "karma start karma.conf.js --single-run",
+    "check-cover": "open coverage/lcov-report/index.html",
     "eslint": "eslint . --ext .js"
   },
   "devDependencies": {
@@ -38,9 +31,10 @@
     "eslint-plugin-import": "^1.12.0",
     "eslint-plugin-jsx-a11y": "^2.0.1",
     "eslint-plugin-react": "^6.0.0",
+    "isparta": "^4.0.0",
     "karma": "^1.2.0",
-    "karma-coverage": "^1.1.1",
     "karma-babel-preprocessor": "^6.0.1",
+    "karma-coverage": "^1.1.1",
     "karma-mocha": "^1.1.1",
     "karma-phantomjs-launcher": "^1.0.2",
     "karma-sinon-chai": "^1.2.3",
@@ -50,6 +44,7 @@
     "mocha": "2.3.4",
     "mocha-jsdom": "^1.1.0",
     "mocha-phantomjs": "^4.1.0",
+    "pre-commit": "^1.1.3",
     "sinon": "^1.17.5",
     "sinon-chai": "^2.8.0",
     "webpack": "1.12.9",
