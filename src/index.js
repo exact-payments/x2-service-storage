@@ -1,5 +1,9 @@
 /* global window */
 
+if (!window) { throw new Error('Missing window object.'); }
+if (!window.localStorage) { throw new Error('localStorage is not supported.'); }
+if (!window.sessionStorage) { throw new Error('sessionStorage is not supported.'); }
+
 class Storage {
 
   constructor(strategy) {
