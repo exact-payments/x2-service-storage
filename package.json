@@ -21,7 +21,8 @@
   "scripts": {
     "build": "webpack --mode=build",
     "dev": "webpack --progress --colors --watch --mode=dev",
-    "test": "karma start karma.conf.js --single-run"
+    "test": "karma start karma.conf.js --single-run",
+    "eslint": "eslint . --ext .js"
   },
   "devDependencies": {
     "babel": "6.3.13",
@@ -54,5 +55,8 @@
     "webpack": "1.12.9",
     "webpack-merge": "^0.14.1",
     "yargs": "3.32.0"
-  }
+  },
+  "pre-commit": [
+    "eslint"
+  ]
 }
