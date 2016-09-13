@@ -1,5 +1,5 @@
 {
-  "name": "x2-service-storage",
+  "name": "@fintechdev/x2-service-storage",
   "version": "0.0.2",
   "description": "X2 Service Storage for Client Side Applications",
   "main": "lib/x2-service-storage.min.js",
